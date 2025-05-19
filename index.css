@@ -4,7 +4,7 @@
     height: 800px;
     background-size: cover;
     position: relative;
-}*/
+}
 body{
     background-image: url("software-engineering-jobs.jpg.webp");
     position: relative;
@@ -142,5 +142,106 @@ img {
 
   nav li {
     margin-bottom: 10px;
+  }
+}*/
+body {
+  background-image: url("software-engineering-jobs.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* هيدر */
+header {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 7vw;
+  font-style: italic;
+  text-shadow: 5px 5px 5px rgb(186, 167, 137);
+  margin: 20px 0;
+}
+
+/* الشريط العلوي */
+.h {
+  background-color: blanchedalmond;
+  height: 22px;
+}
+
+/* المربعات */
+.sec3,
+.sec4,
+.sec5 {
+  background-color: white;
+  border: 6px solid #4f4f4f;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 5vw;
+  max-width: 90%;
+}
+
+/* نص الفقرات */
+p {
+  font-size: 20px;
+}
+
+/* القوائم */
+.list {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+/* الفوتر */
+footer {
+  background-color: #4f4f4f;
+  color: gainsboro;
+  text-align: right;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.emi {
+  font-size: 24px;
+  padding: 15px;
+}
+
+/* الروابط أو الصور في الفوتر */
+.gg {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.gg li {
+  margin: 0 10px;
+}
+
+.gg img {
+  width: 40px;
+  height: auto;
+}
+
+/* تجاوب مع الشاشات الصغيرة */
+@media (max-width: 600px) {
+  header {
+    font-size: 8vw;
+  }
+
+  .sec3,
+  .sec4,
+  .sec5 {
+    font-size: 6vw;
+  }
+
+  .emi {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }

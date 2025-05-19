@@ -147,10 +147,7 @@ img {
 body {
   background-image: url("software-engineering-jobs.jpg.webp");
   background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  
 }
 
 /* هيدر */

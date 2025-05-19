@@ -103,21 +103,44 @@ footer{
 .gg li{
     margin: 0 15px;
 }
-/* تصميم للجوال */
+/* تخلي الموقع متجاوب مع الجوال */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* تعديل التنسيق إذا العرض أقل من 600 بكسل (شاشة الجوال) */
 @media (max-width: 600px) {
   body {
     font-size: 14px;
     padding: 10px;
   }
 
-  .container {
+  .container, header, section, footer {
     width: 100%;
     padding: 10px;
+  }
+
+  nav ul {
     flex-direction: column;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
+  nav li {
+    margin-bottom: 10px;
   }
 }

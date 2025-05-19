@@ -147,7 +147,8 @@ img {
 body {
   background-image: url("software-engineering-jobs.jpg.webp");
   background-size: cover;
-  
+
+  position: relative;
 }
 
 /* هيدر */
